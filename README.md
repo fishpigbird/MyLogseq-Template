@@ -1,3 +1,7 @@
 - # Logseq！
--
+- 我的Notion [[blog]]
+	- 永久域名：[ `https://fishpigbird.github.io/`](https://fishpigbird.github.io/)
+	- [[Logseq]]  !! [ `https://logseq.fpb.icu/`](https://logseq.fpb.icu/)
+	- Nobelium → [`https://nobelium.fpb.icu/`](https://nobelium.fpb.icu/)
+	- NotionNext --> [ `https://blog.fpb.icu`](https://blog.fpb.icu/)
 -
