@@ -8,7 +8,6 @@
 	- Nobelium --> [`https://nobelium.fpb.icu/`](https://nobelium.fpb.icu/)
 	- 永久域名 --> [ `https://fishpigbird.github.io/`](https://fishpigbird.github.io/)
 	- [[Logseq]]  --> [ `https://logseq.fpb.icu/`](https://logseq.fpb.icu/)
-	-
-- phone git
-- phone git test 2
-- phone auto git test muilty process
+- 联系我？
+	- Email: fishpigbird # gmail.com
+-
