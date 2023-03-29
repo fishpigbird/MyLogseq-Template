@@ -15,8 +15,10 @@
 	- [[Logseq]]  --> [ `https://logseq.fpb.icu/`](https://logseq.fpb.icu/)
 - ###  联系我？
 	- `maiI: fishpigbird # gmail.com`
--
 - ### 其他人的博客
 	- https://logseq.pro/
 	- [note.xuanwo.io](https://note.xuanwo.io/#/all-pages)
 	- [AboutTheGarden (oldwinter.top)](https://garden.oldwinter.top/)
+- ### 其他人？
+	- damn
+-
