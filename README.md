@@ -11,4 +11,4 @@
 	-
 - phone git
 - phone git test 2
--
+- phone auto git test
