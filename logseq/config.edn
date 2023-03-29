@@ -68,7 +68,7 @@
  ;; :default-home {:page "Jun 3rd, 2021"} ;; 3.
 ;; 3.将 "home "页设置为首页，并在侧边栏中设置多个页面
 
-;; :default-home {:page "README" :sidebar ["contents"]}
+ :default-home {:page "graph"}
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
@@ -191,7 +191,7 @@
  :favorites ["nobelium" "学习目标" "更新日志" "README" "书单" "Git" "Logseq" "Contents" "MyRSS" "从WorkFlowy迁移过来的卡片"]
  :journal/page-title-format "yyyy-MM-dd"
  :ui/show-brackets? false
- :graph/settings {:journal? true, :builtin-pages? true}
+ :graph/settings {:journal? true, :builtin-pages? false, :orphan-pages? false, :excluded-pages? false}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
