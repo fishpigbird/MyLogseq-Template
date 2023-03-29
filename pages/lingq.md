@@ -1,5 +1,4 @@
 - [[lingq]]使用技巧
-  collapsed:: true
 	- Lingq更新了，所以需要改进下。这次更新变化挺大，很棒！
 		- 正则捕获分析
 		  id:: 6423b46d-6146-4b69-bcae-5d767ca4fa22

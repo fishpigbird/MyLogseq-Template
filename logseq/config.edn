@@ -191,7 +191,7 @@
  :favorites ["nobelium" "学习目标" "更新日志" "README" "书单" "Git" "Logseq" "Contents" "MyRSS" "从WorkFlowy迁移过来的卡片"]
  :journal/page-title-format "yyyy-MM-dd"
  :ui/show-brackets? false
- :graph/settings {:journal? true, :builtin-pages? false, :orphan-pages? false, :excluded-pages? false}
+ :graph/settings {:journal? false, :builtin-pages? false, :orphan-pages? true, :excluded-pages? false}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
