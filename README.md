@@ -6,5 +6,5 @@
 	- NotionNext --> [ `https://blog.fpb.icu`](https://blog.fpb.icu/)
 - 使用建议
 	- 可在右上角graph中寻找感兴趣的节点。
--
+- phone git
 -
