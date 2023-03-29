@@ -5,6 +5,6 @@
 	- Nobelium → [`https://nobelium.fpb.icu/`](https://nobelium.fpb.icu/)
 	- NotionNext --> [ `https://blog.fpb.icu`](https://blog.fpb.icu/)
 - 使用建议
-	- 可在gtaph中寻找感兴趣的主题。
+	- 可在右上角graph中寻找感兴趣的节点。
 -
 -
