@@ -52,7 +52,23 @@
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
- :default-home {:page "README" :sidebar ["contents"]}
+
+  ;; 指定Logseq的默认主页和侧边栏状态
+ ;; 如果不指定，Logseq默认在启动时打开期刊页
+ ;; `:page`的值是页面的名称
+ ;; `:侧边栏`可能的选项有
+ ;; 1. `"内容"`默认在侧边栏打开`内容'。
+ ;; 2. `页面名称`在侧边栏中打开某个页面
+ ;; 3. 或者在一个数组中的多个页面 ["Contents" "Page A" "Page B"] 。
+ ;; 如果`:sidebar`没有被设置，侧边栏将被隐藏。
+ ;; 示例：
+ ;; 1. 设置 "Changelog "作为主页，"Contents "在侧边栏。
+;; :default-home {:page "README", :sidebar "MenuBar"} ;; 2.
+;; 设置 "Jun 3rd, 2021 "作为主页，没有侧边栏
+ ;; :default-home {:page "Jun 3rd, 2021"} ;; 3.
+;; 3.将 "home "页设置为首页，并在侧边栏中设置多个页面
+
+;; :default-home {:page "README" :sidebar ["contents"]}
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
