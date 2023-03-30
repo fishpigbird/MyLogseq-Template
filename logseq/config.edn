@@ -68,7 +68,7 @@
  ;; :default-home {:page "Jun 3rd, 2021"} ;; 3.
 ;; 3.将 "home "页设置为首页，并在侧边栏中设置多个页面
 
- :default-home {:page "graph"}
+; :default-home {:page "README"} 
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
