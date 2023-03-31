@@ -9,8 +9,8 @@
 	- 右面可能有目录。
 	- 左面可能会看到所有页面
 - ### 基于Notion Page 的[[blog]] ，*传统的浏览视图*
-	- NotionNext --> [ `https://blog.fpb.icu`](https://blog.fpb.icu/)
 	- Nobelium --> [`https://nobelium.fpb.icu/`](https://nobelium.fpb.icu/)
+	- NotionNext --> [ `https://blog.fpb.icu`](https://blog.fpb.icu/)
 	- 永久域名 --> [ `https://fishpigbird.github.io/`](https://fishpigbird.github.io/)
 	- [[Logseq]]  --> [ `https://logseq.fpb.icu/`](https://logseq.fpb.icu/)
 	-
