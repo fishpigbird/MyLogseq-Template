@@ -5169,38 +5169,6 @@
           -41.0992863555492
         ]
       ]
-    },
-    {
-      "id": "JS-NYZGWnXFgtCDR4R_00",
-      "type": "image",
-      "x": 592.9952392578125,
-      "y": 324.9963073730469,
-      "width": 0,
-      "height": 0,
-      "angle": 0,
-      "strokeColor": "transparent",
-      "backgroundColor": "transparent",
-      "fillStyle": "hachure",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [],
-      "strokeSharpness": "round",
-      "seed": 829275391,
-      "version": 1,
-      "versionNonce": 0,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1680247815237,
-      "link": null,
-      "locked": false,
-      "status": "pending",
-      "fileId": null,
-      "scale": [
-        1,
-        1
-      ]
     }
   ],
   "appState": {
