@@ -8,12 +8,12 @@
 	- 点击左面的**小圆点**，就是一个page。
 	- 右面可能有目录。
 	- 左面可能会看到所有页面
+	- 按tt切换夜间模式
 - ### 基于Notion Page 的[[blog]] ，*传统的浏览视图*
 	- blog --> [`https://blog.fpb.icu/`](https://blog.fpb.icu/)
 	- blog-2 --> [ `https://notion.fpb.icu`](https://notion.fpb.icu/)
 	- 永久域名 --> [ `https://fishpigbird.github.io/`](https://fishpigbird.github.io/)
 	- [[Logseq]]  --> [ `https://fpb.icu/`](https://fpb.icu/)
-		- https://fpb.icu/
 - ###  联系我？
 	- `maiI: fishpigbird # gmail.com`
 - ### 其他人的博客
