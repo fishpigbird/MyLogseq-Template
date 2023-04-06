@@ -13,7 +13,7 @@
 	- blog-2 --> [ `https://notion.fpb.icu`](https://notion.fpb.icu/)
 	- 永久域名 --> [ `https://fishpigbird.github.io/`](https://fishpigbird.github.io/)
 	- [[Logseq]]  --> [ `https://fpb.icu/`](https://fpb.icu/)
-	-
+		- https://fpb.icu/
 - ###  联系我？
 	- `maiI: fishpigbird # gmail.com`
 - ### 其他人的博客
