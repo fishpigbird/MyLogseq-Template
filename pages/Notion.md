@@ -1,12 +1,13 @@
-- [[Notion]]   a kind of [[NoteApp]]
-	- 1. 用Nobelium（源项目） / NotionNext （更好看）发布Notion页面为博客，免费。
-		- 关键字，Vercle  github 自己搜
-		- 示例：
-			- NotionNext --> [ `https://blog.fpb.icu`](https://blog.fpb.icu/)
-			- Nobelium --> [`https://nobelium.fpb.icu/`](https://nobelium.fpb.icu/)
-	- 2. Windows上配合 简悦 的 发送至Notion ， 完美剪辑网页。
-		- 相信很多人会遇到，此内容已删除的情况。
-		- 如果喜欢Notion，还可以在里面做笔记。
-	- 3. 对了，不要玩这个软件啊。
-	- 4. 对了，如果你能私信我，送你个plus账号。
 -
+	- [[Notion]]   a kind of [[NoteApp]]
+	  collapsed:: true
+		- 1. 用Nobelium（源项目） / NotionNext （更好看）发布Notion页面为博客，免费。
+			- 关键字，Vercle  github 自己搜
+			- 示例：
+				- NotionNext --> [ `https://blog.fpb.icu`](https://blog.fpb.icu/)
+				- Nobelium --> [`https://nobelium.fpb.icu/`](https://nobelium.fpb.icu/)
+		- 2. Windows上配合 简悦 的 发送至Notion ， 完美剪辑网页。
+			- 相信很多人会遇到，此内容已删除的情况。
+			- 如果喜欢Notion，还可以在里面做笔记。
+		- 3. 对了，不要玩这个软件啊。
+		- 4. 对了，如果你能私信我，送你个plus账号。
