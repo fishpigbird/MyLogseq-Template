@@ -7,94 +7,94 @@
 -
 	- #2023-04-11
 		- **02:18**  成功将昨天 [[dailynote]] Java添加日期代码转换为了 [[Sublime Text 3/Plugin]]。
-		  collapsed:: true
-			- 具体的过程
-			  collapsed:: true
+		  id:: 6434579c-4f76-4e04-8c1e-728b3309dc0f
+			- 尝试过程
 				- 首先尝试写 [[logseq/plugin]]，并借助 [[AI]]来学习编写，因为相关教程比较少，不过还是主要因为涉及到JS代码，但其与Java差距过大，无法迅速理解，遂放弃此方法。
 				- 其次则准备GPT3.5将Java代码转换为Sublime支持的Python3.3代码，作为其插件使用。但GPT3.5的代码理解能力着实有点菜了，具体我就不展示了。
-				- 最终用GPT4进行代码转换，几乎一次成功。请欣赏：
+			- 最终用GPT4进行代码转换，几乎一次成功。请欣赏：
+				- Code
+				  background-color:: red
 				  collapsed:: true
-					- Code
-					  background-color:: red
-					  collapsed:: true
-						- ```java
-						  import sublime
-						  import sublime_plugin
-						  import re
-						  import os
-						  
-						  class LogseqJournalsDateCommand(sublime_plugin.TextCommand):
-						      def run(self, edit):
-						          file_path = self.view.file_name()
-						          print(file_path)
-						          process_file(file_path)
-						  
-						  #以下代码通过GPT4生成，它完美的将java逻辑转换为了Python代码。仅仅有一处错误。
-						  #相比较GPT3.5而言，提升巨大。
-						  # 一个检查字符串是否匹配模式 #YYYY-MM-DD 的方法
-						  def is_date(s):
-						      p = re.compile(r'#\d{4}-\d{2}-\d{2}')
-						      m = p.search(s)
-						      return m is not None
-						  
-						  # 一个处理单个文件的方法
-						  def process_file(file_path):
-						      try:
-						          # 读取文件
-						          with open(file_path, 'r', encoding='utf-8') as file:
-						              lines = file.readlines()
-						  
-						          # 获取文件名
-						          name, _ = os.path.splitext(os.path.basename(file_path))
-						  
-						          # 创建一个列表来存储修改后的内容
-						          modified_lines = []
-						          i = 0
-						          while i < len(lines):
-						              line = lines[i].rstrip()
-						              # 如果行只包含“-”，跳过它并读取下一行
-						              if line == '-':
-						                  modified_lines.append(line)
-						                  i += 1
-						                  while i < len(lines) and lines[i].strip() == '-':
-						                      modified_lines.append(lines[i].rstrip())
-						                      i += 1
-						                  continue
-						  
-						              if line.startswith('-'):
-						                  if is_date(line):
-						                      modified_lines.append(line)
-						                      i += 1
-						                      while i < len(lines) and not lines[i].startswith('-'):
-						                          modified_lines.append(lines[i].rstrip())
-						                          i += 1
-						                      ##GPT4仅仅忘记了这行
-						                      continue
-						                  else:
-						                      date = name.replace('_', '-')
-						                      modified_lines.append('- #' + date)
-						                      modified_lines.append('\t' + line)
-						              else:
-						                  modified_lines.append('\t' + line)
-						  
-						              i += 1
-						          # 将修改后的内容写回文件
-						          with open(file_path, 'w', encoding='utf-8') as file:
-						              file.write('\n'.join(modified_lines))
-						  
-						      except IOError as e:
-						          print(e)
-						  
-						  ```
-					- Sublime 插件使用教程
-					  collapsed:: true
-						- {{embed ((64341f75-92e6-48e0-b929-193dbfcf1743))}}
-						-
+					- ```java
+					  import sublime
+					  import sublime_plugin
+					  import re
+					  import os
+					  
+					  class LogseqJournalsDateCommand(sublime_plugin.TextCommand):
+					      def run(self, edit):
+					          file_path = self.view.file_name()
+					          print(file_path)
+					          process_file(file_path)
+					  
+					  #以下代码通过GPT4生成，它完美的将java逻辑转换为了Python代码。仅仅有一处错误。
+					  #相比较GPT3.5而言，提升巨大。
+					  # 一个检查字符串是否匹配模式 #YYYY-MM-DD 的方法
+					  def is_date(s):
+					      p = re.compile(r'#\d{4}-\d{2}-\d{2}')
+					      m = p.search(s)
+					      return m is not None
+					  
+					  # 一个处理单个文件的方法
+					  def process_file(file_path):
+					      try:
+					          # 读取文件
+					          with open(file_path, 'r', encoding='utf-8') as file:
+					              lines = file.readlines()
+					  
+					          # 获取文件名
+					          name, _ = os.path.splitext(os.path.basename(file_path))
+					  
+					          # 创建一个列表来存储修改后的内容
+					          modified_lines = []
+					          i = 0
+					          while i < len(lines):
+					              line = lines[i].rstrip()
+					              # 如果行只包含“-”，跳过它并读取下一行
+					              if line == '-':
+					                  modified_lines.append(line)
+					                  i += 1
+					                  while i < len(lines) and lines[i].strip() == '-':
+					                      modified_lines.append(lines[i].rstrip())
+					                      i += 1
+					                  continue
+					  
+					              if line.startswith('-'):
+					                  if is_date(line):
+					                      modified_lines.append(line)
+					                      i += 1
+					                      while i < len(lines) and not lines[i].startswith('-'):
+					                          modified_lines.append(lines[i].rstrip())
+					                          i += 1
+					                      ##GPT4仅仅忘记了这行
+					                      continue
+					                  else:
+					                      date = name.replace('_', '-')
+					                      modified_lines.append('- #' + date)
+					                      modified_lines.append('\t' + line)
+					              else:
+					                  modified_lines.append('\t' + line)
+					  
+					              i += 1
+					          # 将修改后的内容写回文件
+					          with open(file_path, 'w', encoding='utf-8') as file:
+					              file.write('\n'.join(modified_lines))
+					  
+					      except IOError as e:
+					          print(e)
+					  
+					  ```
+				- Sublime 插件使用教程
+				  collapsed:: true
+					- {{embed ((64341f75-92e6-48e0-b929-193dbfcf1743))}}
+					-
+				- ((64345711-ca91-4fba-a27a-d8b0e4226c8d))
 			- 那么具体使用过程点击当日Journals，右上角三点，用默认文本打开，调用插件即可。
 	- #2023-04-10
+	  id:: 6434561b-89a2-4302-ae6f-2ae63801a033
 		- 不会写插件，先写个 [[Sublime Text 3]]为 [[dailynote]]里的项目添加日期父级节点的吧。
 		- 今天用[[java]]写了个给[[Logseq]] [[dailynote]] 内顶级block的小脚本，这样在后期整理的时候会非常方便，而且还不会丢失时间戳，代码目前没有优化，并且没有明显bug。 #logseq/plugin
-		  collapsed:: true
+		  id:: 6434561b-1eb9-41a8-9b6c-bc2e44ec08ae
 			- 展示
 			  collapsed:: true
 				- ![image.png](../assets/image_1681067694146_0.png)
@@ -277,6 +277,7 @@
 				  }
 				  
 				  ```
+			- ((64345711-ca91-4fba-a27a-d8b0e4226c8d))
 	- #2023-04-09
 		- 写一个自动在 [[dailynote]]的顶级block前，添加当前日期插件。
 		  id:: 6432550b-87e2-44ac-a2f9-c7ae704077ac
