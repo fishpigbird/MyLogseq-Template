@@ -1,5 +1,5 @@
 -
-	- 昨天写的 [[Sublime Text 3]]的[[python]]代码今天报错：# NameError: global name 'uuid4()' is not defined (while it is defined.)#2023-03-31
+	- 昨天写的 [[Sublime Text 3/Plugin]] 的[[python]]代码今天报错：# NameError: global name 'uuid4()' is not defined (while it is defined.)#2023-03-31
 	  collapsed:: true
 		- 改了一下代码：
 			- ```java
@@ -124,3 +124,4 @@
 			  #   return None
 			  
 			  ```
+-
