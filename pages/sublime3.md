@@ -1,12 +1,11 @@
 -
-	- 在[[sublime3]] 中用 [[python]] 插件 重命名所有新 临时标签页 ， 并一键保存 所有临时文件到指定目录。
-	  collapsed:: true
+	- 在 [[Sublime Text 3]] 中用 [[python]] 插件 重命名所有新 临时标签页 ， 并一键保存 所有临时文件到指定目录。
 		- 相关链接
 		  collapsed:: true
 			- [How to auto-save unsaved tabs in Sublime Text? - General Discussion - Sublime Forum](https://forum.sublimetext.com/t/how-to-auto-save-unsaved-tabs-in-sublime-text/62376/9)
 			- [sublime 插件和创建代码片段_sublime_text_build_4143_x64_setup.exe_幸运学者的博客-CSDN博客](https://blog.csdn.net/weixin_43649647/article/details/123439190)
 		- 使用插件
-		  collapsed:: true
+			- `ctrl + ~` 打开terminal
 			- 文件结构
 			  collapsed:: true
 				- ![image.png](../assets/image_1680186383611_0.png)
