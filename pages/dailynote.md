@@ -6,12 +6,20 @@
 				- 双链结构和回显才会生成。
 -
 	- #2023-04-11
-		- **02:18**  成功将昨天 [[dailynote]] Java添加日期代码转换为了 [[Sublime Text 3/Plugin]]。
+		- 给 [[dailynote]]添加父级日期的一个好处，block级会默认展开ref，对于被embed的内容，展开后会造成不必要的内容冗余，与下面正文重复。但若打开block上一级的 日期节点 则不会展开。
+		  collapsed:: true
+			- 父亲节点
+				- ![image.png](../assets/image_1681188979523_0.png){:height 334, :width 865}
+			- 本节点
+				- ![image.png](../assets/image_1681188971430_0.png)
+		- **0218**  成功将昨天 [[dailynote]] Java添加日期代码转换为了 [[Sublime Text 3/Plugin]]。
 		  id:: 6434579c-4f76-4e04-8c1e-728b3309dc0f
-			- 尝试过程
-				- 首先尝试写 [[logseq/plugin]]，并借助 [[AI]]来学习编写，因为相关教程比较少，不过还是主要因为涉及到JS代码，但其与Java差距过大，无法迅速理解，遂放弃此方法。
-				- 其次则准备GPT3.5将Java代码转换为Sublime支持的Python3.3代码，作为其插件使用。但GPT3.5的代码理解能力着实有点菜了，具体我就不展示了。
 			- 最终用GPT4进行代码转换，几乎一次成功。请欣赏：
+				- 展示
+				  collapsed:: true
+					- ![image.png](../assets/image_1681188696662_0.png)
+				- 功能
+					- 为当前日志页面，添加日期父节点
 				- Code
 				  background-color:: red
 				  collapsed:: true
@@ -84,20 +92,33 @@
 					          print(e)
 					  
 					  ```
+			- 那么具体使用过程教程：
+			  collapsed:: true
+				- ((64345711-ca91-4fba-a27a-d8b0e4226c8d))
 				- Sublime 插件使用教程
 				  collapsed:: true
 					- {{embed ((64341f75-92e6-48e0-b929-193dbfcf1743))}}
-					-
-				- ((64345711-ca91-4fba-a27a-d8b0e4226c8d))
-			- 那么具体使用过程点击当日Journals，右上角三点，用默认文本打开，调用插件即可。
+				- logseq更改日志格式
+				  collapsed:: true
+					- ![image.png](../assets/image_1681188189394_0.png)
+				- 点击当日Journals，右上角三点，用默认文本打开，调用插件即可。
+			- ~~尝试过程~~
+			  collapsed:: true
+				- 首先尝试写 [[logseq/plugin]]，并借助 [[AI]]来学习编写，因为相关教程比较少，不过还是主要因为涉及到JS代码，但其与Java差距过大，无法迅速理解，遂放弃此方法。
+				- 其次则准备GPT3.5将Java代码转换为Sublime支持的Python3.3代码，作为其插件使用。但GPT3.5的代码理解能力着实有点菜了，具体我就不展示了。
+			-
 	- #2023-04-10
 	  id:: 6434561b-89a2-4302-ae6f-2ae63801a033
 		- 不会写插件，先写个 [[Sublime Text 3]]为 [[dailynote]]里的项目添加日期父级节点的吧。
-		- 今天用[[java]]写了个给[[Logseq]] [[dailynote]] 内顶级block的小脚本，这样在后期整理的时候会非常方便，而且还不会丢失时间戳，代码目前没有优化，并且没有明显bug。 #logseq/plugin
+		- 今天用[[java]]写了个给[[Logseq]] [[dailynote]] 内顶级block的小脚本，这样在后期整理的时候会非常方便，而且还不会丢失时间戳，代码目前没有优化，并且没有明显bug。
 		  id:: 6434561b-1eb9-41a8-9b6c-bc2e44ec08ae
 			- 展示
 			  collapsed:: true
-				- ![image.png](../assets/image_1681067694146_0.png)
+				- 所有日志皆作如下操作
+					- ![image.png](../assets/image_1681188509864_0.png)
+			- 功能
+			  collapsed:: true
+				- 为Journals内所有文件，全部添加日期父节点。
 			- Code
 			  background-color:: red
 			  collapsed:: true
@@ -277,7 +298,8 @@
 				  }
 				  
 				  ```
-			- ((64345711-ca91-4fba-a27a-d8b0e4226c8d))
+		- 或使用Sublime，为当前日志页面，添加日期父节点
+			- ((6434579c-4f76-4e04-8c1e-728b3309dc0f))
 	- #2023-04-09
 		- 写一个自动在 [[dailynote]]的顶级block前，添加当前日期插件。
 		  id:: 6432550b-87e2-44ac-a2f9-c7ae704077ac
