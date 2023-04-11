@@ -6,11 +6,16 @@
 				- 双链结构和回显才会生成。
 -
 	- #2023-04-11
-		- 给 [[dailynote]]添加父级日期的一个好处，block级会默认展开ref，对于被embed的内容，展开后会造成不必要的内容冗余，与下面正文重复。但若打开block上一级的 日期节点 则不会展开。
+		- ~~给 [[dailynote]]添加父级日期的一个好处，block级会默认展开ref，对于被embed的内容，展开后会造成不必要的内容冗余，与下面正文重复。但若打开block上一级的 日期节点 则不会展开。~~
 		  collapsed:: true
+			- 已解决
+				- [Enhancement: Add config option to handle default block refs expanding behaviour by aiirobyte · Pull Request #8839 · logseq/logseq (github.com)](https://github.com/logseq/logseq/pull/8839)
 			- 父亲节点
+			  collapsed:: true
 				- ![image.png](../assets/image_1681188979523_0.png){:height 334, :width 865}
 			- 本节点
+			  collapsed:: true
+				-
 				- ![image.png](../assets/image_1681188971430_0.png)
 		- **0218**  成功将昨天 [[dailynote]] Java添加日期代码转换为了 [[Sublime Text 3/Plugin]]。
 		  id:: 6434579c-4f76-4e04-8c1e-728b3309dc0f
