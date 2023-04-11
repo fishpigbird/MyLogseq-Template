@@ -10,7 +10,7 @@
 	- 左面可能会看到所有页面
 	- 按tt切换夜间模式
 - ## Linktree
-	- <iframe src="https://blog.fpb.icu/about" width="600" height="900"></iframe>
+	- <iframe src="https://blog.fpb.icu/about" width="600" height="2200"></iframe>
 - ### 其他人的博客
 	- https://logseq.pro/
 	- [note.xuanwo.io](https://note.xuanwo.io/#/all-pages)

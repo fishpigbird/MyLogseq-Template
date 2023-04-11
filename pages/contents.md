@@ -1,3 +1,6 @@
--
-- [图谱 (fpb.icu)](https://www.fpb.icu/#/graph)
-- [[README]]
+id:: 64352cb4-6861-4eff-94d8-9c2100a7c826
+
+	- [图谱 (fpb.icu)](https://www.fpb.icu/#/graph)
+	- [[SeeBlog]]
+	- [[dailynote]]
+	- [[README]]
