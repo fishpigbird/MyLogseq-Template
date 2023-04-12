@@ -1,2 +1,3 @@
 - {{embed ((64352cb4-6861-4eff-94d8-9c2100a7c826))}}
-- <iframe src="https://blog.fpb.icu/" width="600" height="2200"></iframe>
+-
+- <iframe src="https://blog.fpb.icu/" width=100% height="2200"></iframe>

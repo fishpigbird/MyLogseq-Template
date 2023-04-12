@@ -5,7 +5,7 @@
 	- #2023-04-11
 		- 在 [[logseq/tips]] embed任何页面
 			- 黏贴html代码即可
-				- `<iframe src="https://blog.fpb.icu/about" width="600" height="400"></iframe>`
+				- `<iframe src="https://blog.fpb.icu/about" width=100% height="400"></iframe>`
 		- [[logseq/tips]]
 			- 代码块就用 Alt+`
 	- #2023-04-10
