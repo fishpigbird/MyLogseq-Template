@@ -1,6 +1,7 @@
 - 通过 [[Notion/blog]] 下载我的 [[Sublime Text 3]] 插件
   id:: 64345711-ca91-4fba-a27a-d8b0e4226c8d
 	- [Sublime3 插件 (fpb.icu)](https://blog.fpb.icu/RovKXqaF0Szb13)
+	- <iframe src="https://blog.fpb.icu/Sublime3-df48d34142734137bcea8239bf6fb5c8" style="width: 100%; height: 200px"></iframe>
 -
 	- #2023-03-30
 		- 在 [[Sublime Text 3/Plugin]] 中用 [[python]] 插件 重命名所有新 临时标签页 ， 并一键保存 所有临时文件到指定目录。
