@@ -1,4 +1,15 @@
 -
+	- 1
+	-
+	- #2023-04-12
+		- [[logseq/plugin]]Text Wrapper 配置文件里的 svg 这样改
+			- 下载svg文件
+				- [Free Icon (freeicons.io)](https://freeicons.io/)
+				- [Code Vector SVG Icon (138) - SVG Repo](https://www.svgrepo.com/svg/509860/code)
+				- https://fonts.google.com/icons
+			- 转换文本格式
+				- [Free Online JSON Escape / Unescape Tool - FreeFormatter.com](https://www.freeformatter.com/json-escape.html#before-output)
+			- 黏贴到     `"icon":` 后
 	- #2023-04-11
 		- [[logseq/plugin]]在tun模式下无法下载
 	- #2023-04-10

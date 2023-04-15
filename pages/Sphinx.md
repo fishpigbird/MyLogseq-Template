@@ -1,0 +1,38 @@
+-
+-
+	-
+	- #2023-04-14
+	  collapsed:: true
+		- #Sphinx
+			- pdf
+				- 可以添加外链。
+				- 可以内链跳转。
+			- rst
+				- 可以添加超链接
+				- 支持latex吗？好像支持。
+				- ToWeb
+					- latex和超链接都正常
+				- github中不支持显出latx
+					- [reStructuredText does not support math · Issue #83 · github/markup](https://github.com/github/markup/issues/83)
+			- md
+				- 可以添加超链接
+				- 支持latex
+			- epub
+				- 不能添加超链接
+				- 好像支持
+			- rst -> epub 超链接会失败
+			- rst -> epub latex失败
+			-
+			- 用[readthedocs](http://readthedocs.io/)构建的项目，生成html一切正常。
+				- 生成pdf，报错。
+				- 但可以生成epub，再用calibra转成pdf。
+					- 但epub里latex显示不正常，
+					- 而且关键字html的外链显示也不正常。
+						- rst文件中的关键字html超链倒是显示正常。
+						- 这样就导致，md转rst，也无法生成完美的page。
+	- #2023-04-13
+	  collapsed:: true
+		- https://readthedocs.org/  生成pdf格式时，可能因latex插件遇到错误latex代码而生成失败的问题嘛。epub倒是可以正常生成。 #Sphinx
+			- [errors - Cannot determine size of graphic - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/17734/cannot-determine-size-of-graphic)
+			- 暂时先生成epub把。
+			  id:: 6437cf98-d40d-402e-90d2-fb5b7b0edd77
