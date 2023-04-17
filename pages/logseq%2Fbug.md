@@ -1,5 +1,18 @@
 -
 -
 	-
+	- #2023-04-15
+		- [[logseq/bug]]
+			- extro link bug
+			  collapsed:: true
+				- logseq link：
+					- logseq://graph/LogseqPhone?block-id=6438361d-ba97-4fa3-9056-1228a87b5555
+					- [logseq link：](logseq://graph/Test?block-id=6438361d-ba97-4fa3-9056-1228a87b5555)
+					- logseq://graph/LogseqPhone?block-id=6438361d-ba97-4fa3-9056-1228a87b5555
+				- bookxnote
+					- answer [351](bookxnotepro://opennote/?nb={bc933bec-df2a-4a19-922d-ae31e23caa8a}&book=d0cb3fcb3f1dbf6642e6537b631e5c08&page=350&x=246&y=465&id=3&uuid=42c74f73371d272b23fd97da0ddeb8d2)
+				- [mail](message://%3C7If0AgPbmm7A@ismtpd%3E)
+				-
+				- [Google](https://www.google.com/)
 	- #2023-04-13
 		- [[logseq/bug]] 软件外链无法跳转
