@@ -46,6 +46,7 @@
 			- 代码块就用 Alt+`
 		- [[logseq/tips]]
 			- 按T W 进入宽页模式阅读
+				- To Wide
 	- #2023-04-10
 		- [[logseq/tips]]
 			- 库列表上，shift + 点击快速打开新窗口
