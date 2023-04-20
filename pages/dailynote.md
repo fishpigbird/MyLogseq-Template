@@ -355,6 +355,9 @@
 					- 谷歌日历自动同步到Cron 和 Logseq
 			- IOS 日历应该也能同步谷歌日历
 			- 而且离线编辑也不怕，不会出什么幺蛾子，像Notion，keep，onenote离线编辑都会丢内容
+	- #2023-04-07
+	  collapsed:: true
+		- Nothing has been done today.
 	- #2023-03-30
 		- 今天我尝试解决了两个问题。首先，在[[Sublime Text 3]]中使用[[Python]]插件，我成功地重命名了所有新的临时标签页，并一键保存了所有临时文件到指定目录。我通过修改autosavebuffers.py文件中的代码，并设置了快捷键和命令来实现这一目标。其次，我尝试使用.ignore文件来解决[[Logseq]]自动[[Git]]同步对非Git库操作导致的错误提醒。我通过将.git、readme.me和.gitignore文件复制到非Git仓库中来实现这一目标。这样一来，对于已存在的文件更改是可以更新的，而对于其他文件则不会受到Git同步的影响。
 	- #2023-03-29
