@@ -1,10 +1,10 @@
--
+id:: 64341f75-90b5-4598-810b-dc21a96509dd
+
 	- [[Excel/VBA/Regex]]
 		- 如何打开 [[Excel/VBA]]
 			- [Excel VBA在哪 Excel VBA编辑器怎么打开-百度经验 (baidu.com)](https://jingyan.baidu.com/article/3f16e0031075a02590c1034e.html)
 			- 文件格式另存为：xlsm
 		- Regex
-		  collapsed:: true
 			- [Excel Regex to replace strings using regular expressions (ablebits.com)](https://www.ablebits.com/office-addins-blog/excel-regex-replace/)
 			- ```vb
 			  Public Function RegExpReplace(text As String, pattern As String, text_replace As String, Optional instance_num As Integer = 0, Optional match_case As Boolean = True) As String
