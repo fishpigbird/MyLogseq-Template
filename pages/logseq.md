@@ -20,3 +20,26 @@
 	  collapsed:: true
 		- 其实不行，有时有代码，内容太长。
 	- 不要用 [[logseq]]excalidraw ，可以用 Sketchbook、![]draw.io 做替代，把 Sketchbook 或draw.io的文件插到块里截个图就行。#2023-03-31
+	- #2023-04-19
+	  collapsed:: true
+		- [[Logseq]] embed 子节点
+			- Logseq 特点
+				- 优点
+					- Block很细致
+				- 缺点
+					- Block多了会卡
+					-
+			- {{embed ((643f4c8c-ac9f-4e26-8743-dff628feb035))}}
+			- 各种笔记软件的优点和缺点
+				- 优点
+					- {{embed ((643f4d4d-1c4a-44fa-b62e-233ff1bb97be))}}
+					-
+				- 缺点
+					- {{embed ((643f4d4d-4c5b-4614-99c2-32f70e10cdae))}}
+			- 分解示例用
+				- Logseq 特点
+					- 优点
+						- Block很细致
+				- Logseq 特点
+					- 缺点
+						- Block多了会卡
