@@ -1,0 +1,93 @@
+/* Wrap the content inside code blocks in all themes 
+
+pre, code {
+  white-space : pre-wrap !important;
+}
+
+*/
+
+
+/*我修改的clean地图主题，手机端视图有问题，不用了。*/
+/*@import url('https://cdn.jsdelivr.net/gh/fishpigbird/logseq-clean-themes@main/bg.css');*/
+
+
+
+
+
+/* 红粉黑主题：还不错，GitHub中实时更新*/
+/*@import url('https://cdn.jsdelivr.net/gh/LeonWong0609/logseq-default-dark-0-saturation@main/custom.css');*/
+
+/* 红粉黑主题 同上：我上传，GitHub中固定版本*/
+/*@import url('https://cdn.jsdelivr.net/gh/springrain1/logseq_theme@v1.1/custom_favorite.css');*/
+
+
+/* 地图背景  主题：我上传，GitHub中固定版本*/
+/*@import url('https://cdn.jsdelivr.net/gh/springrain1/logseq_theme@v1.1/custom_darkgood.css');*/
+/* 地图背景  主题：我上传，GitHub中固定版本*/
+/*@import url('https://cdn.jsdelivr.net/gh/PiotrSss/logseq-clean-themes@main/bg.css');*/
+/*@import url('F:\Users\birdy.OMEN\Git\logseq\logseq-clean-themes\bg.css');*/
+
+/*@import url('https://cdn.jsdelivr.net/gh/PiotrSss/logseq-clean-themes@main/custom.css');*/
+
+
+/*https://github.com/l3ony2k/logseq-clean-themes-red*/
+/*有点宽了。不好看*/
+/*@import url('https://cdn.jsdelivr.net/gh/LeonWong0609/logseq-clean-themes-red@main/custom.css');*/
+
+
+
+
+
+
+
+/* 绿色主题 - 文本突出，白背板，代码有bug*/
+/*@import url('https://cdn.jsdelivr.net/gh/pengx17/logseq-laurel-theme@master/custom.css');*/
+
+
+/*@import url('https://raw.githubusercontent.com/PiotrSss/logseq-clean-themes/main/bg.css');*/
+
+
+/*logseq-bonofix-主题*/
+/*@import url('https://cdn.jsdelivr.net/gh/sansui233/logseq-bonofix-theme/custom.css')*/
+
+
+
+
+/* 东京主题：我上传，GitHub中固定版本  绿字 */
+/*@import url('https://cdn.jsdelivr.net/gh/springrain1/logseq_theme@v1.1/tokyo.css');*/
+/* 白黑主题   绿字， 点阵背景 */
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/main.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-black.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-black-dots.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white-dots.css');
+
+* {
+  font-family: STZhongsong, sans-serif;
+  font-size:19px;
+}
+
+
+/* 棕褐色+咖啡主题 点阵背景，黄色被调，挺好看*/
+/*@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/main.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-coffee.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-coffee-dots.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-sepia.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-sepia-dots.css');*/
+
+
+/*不能用*/
+/* 日光化灯光主题 - 普通白色 蓝key 红url */
+/*@import url("https://cdn.jsdelivr.net/gh/nmartin84/logseq-solarized/solarized.css");*/
+
+/* 白净主题：notion 一般 */
+/*@import url('https://cdn.jsdelivr.net/gh/sansui233/logseq-bonofix-theme/custom.css')*/
+
+
+/*   黄蓝红  主题：Base16 Atelier Forest*/
+/*@import url('https://raw.githack.com/DenaroCF/LS-Base16-Atelier-Forest-by-Denaro/main/custom.css');*/
+
+
+/* Roam主题：我上传，GitHub中固定版本 有问题 */
+/*@import url('https://cdn.jsdelivr.net/gh/springrain1/logseq_theme@v1.1/custom_Roam.css'); */
+
