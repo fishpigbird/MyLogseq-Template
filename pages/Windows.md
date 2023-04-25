@@ -2,8 +2,17 @@
 - 1
 	- 2
 	-
+	- [[2023-04-25]]
+	  collapsed:: true
+		- [[Windows]]移动用户目录，彻底解放C盘。
+			- 方法
+				- [Move Users Folder Location in Windows 10 | Tutorials (tenforums.com)](https://www.tenforums.com/tutorials/1964-move-users-folder-location-windows-10-a.html?utm_source=ld246.com)
+				- [Win10/11 移动C:\Users 目录_win10 users目录迁移_江城撅嘴的川羌的博客-CSDN博客](https://blog.csdn.net/m0_63969219/article/details/124116664)
+			- 但是
+				- 却被win休眠缓存打败
 	- #2023-04-24
 		- 数据无价 #Windows
+		  collapsed:: true
 			- 进pe，为了能升级bios把efi向前扩容100mb。
 			- 用disk天才删除一个小文件很多的文件夹，删着删着就蓝屏了。
 			- 错误：
