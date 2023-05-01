@@ -1,4 +1,12 @@
+alias:: sublime3
+
 -
+	- hack
+		- [Sublime Text 4143 激活码 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/603640137)
+		- [sublime text 4143 license key (github.com)](https://gist.github.com/opastorello/4d494d627ec9012367028c89cb7a1945)
+		- [HexEd.it — 基于浏览器的十六进制编辑器](https://hexed.it/)
+			- 在搜索框中输入 `807805000f94c1`，找到后，替换为`c64005014885c9`
+				- 回车-替换
 	- 昨天写的 [[Sublime Text 3/Plugin]] 的[[python]]代码今天报错：# NameError: global name 'uuid4()' is not defined (while it is defined.)#2023-03-31
 	  collapsed:: true
 		- 改了一下代码：

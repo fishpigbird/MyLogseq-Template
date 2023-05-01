@@ -1,8 +1,12 @@
+-
+-
+- 使用教程
+	-
 - 通过 [[Notion/blog]] 下载我的 [[Sublime Text 3]] 插件
   id:: 64345711-ca91-4fba-a27a-d8b0e4226c8d
 	- [Sublime3 插件 (fpb.icu)](https://blog.fpb.icu/RovKXqaF0Szb13)
 	- <iframe src="https://blog.fpb.icu/Sublime3-df48d34142734137bcea8239bf6fb5c8" style="width: 100%; height: 200px"></iframe>
--
+- --
 	- #2023-03-30
 		- 在 [[Sublime Text 3/Plugin]] 中用 [[python]] 插件 重命名所有新 临时标签页 ， 并一键保存 所有临时文件到指定目录。
 			- 相关链接
@@ -11,10 +15,10 @@
 				- [sublime 插件和创建代码片段_sublime_text_build_4143_x64_setup.exe_幸运学者的博客-CSDN博客](https://blog.csdn.net/weixin_43649647/article/details/123439190)
 			- 使用插件
 			  id:: 64341f75-92e6-48e0-b929-193dbfcf1743
-			  collapsed:: true
 				- `ctrl + ~` 打开terminal
 				- 文件结构
-				  collapsed:: true
+					- `C:\Users\username\AppData\Roaming\Sublime Text 3\Packages`
+					- `C:\Users\username\AppData\Roaming\Sublime Text\Packages`
 					- ![image.png](../assets/image_1680186383611_0.png)
 				- autosavebuffers.py
 				  collapsed:: true
@@ -183,7 +187,6 @@
 					  ```
 					- ![image.png](../assets/image_1680184482441_0.png)
 			- 方法2
-			  collapsed:: true
 				- 直接把 appdata 下的 文件都删掉就好了
 	- #2023-04-11
 		- {{embed ((6434579c-4f76-4e04-8c1e-728b3309dc0f))}}
