@@ -1,0 +1,12 @@
+-
+-
+	- 常用命令
+		- 拼接字符串
+			- `=CONCAT(,)`
+		- 多替换
+			- 用VLOOKUP实现吧，SUBSTITUTE嵌套有次数限制。
+		- 查找匹配
+			- VLOOKUP
+				- `=IFERROR(VLOOKUP(W76,Sheet1!Q:R,2,0),)`
+			- VLOOKUP 匹配不出，原因之一：含有“~”这个符号
+				- `=IFERROR(VLOOKUP(SUBSTITUTE(W76,"~","~~"),Sheet1!Q:R,2,0),)`
