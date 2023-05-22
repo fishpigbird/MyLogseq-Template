@@ -13,5 +13,6 @@
 	- <iframe src="https://blog.fpb.icu/about" width="600" height="2200"></iframe>
 - ### 其他人的博客
 	- https://logseq.pro/
+		- logseq使用介绍 | 笔记知识 | 等
 	- [note.xuanwo.io](https://note.xuanwo.io/#/all-pages)
 	- [AboutTheGarden (oldwinter.top)](https://garden.oldwinter.top/)

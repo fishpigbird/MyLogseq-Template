@@ -4,6 +4,7 @@ id:: 64341f75-90b5-4598-810b-dc21a96509dd
 		- 如何打开 [[Excel/VBA]]
 			- [Excel VBA在哪 Excel VBA编辑器怎么打开-百度经验 (baidu.com)](https://jingyan.baidu.com/article/3f16e0031075a02590c1034e.html)
 			- 文件格式另存为：xlsm
+		- alt+11
 		- Regex
 			- [Excel Regex to replace strings using regular expressions (ablebits.com)](https://www.ablebits.com/office-addins-blog/excel-regex-replace/)
 			- ```vb
@@ -52,3 +53,8 @@ id:: 64341f75-90b5-4598-810b-dc21a96509dd
 			  End Function
 			  
 			  ```
+				- 这公式怎么tmd的用不了
+			- `'`
+				- 这符号tmd怎么打出来的？单引号蛤？
+				-
+		-
