@@ -4,7 +4,6 @@
 		  id:: 6423b46d-6146-4b69-bcae-5d767ca4fa22
 		  collapsed:: true
 			- 要捕获 `人間なら誰しも` 可以看到他后面必定出现  `显示翻译` 这四个字。
-			  collapsed:: true
 				- 所以要用  `正向先行断言`
 				- 试试让Sydney来帮我们生成
 				  collapsed:: true
@@ -93,15 +92,53 @@
 			  同时主要，日语后面会包含一个换行符
 			  所以我们用零宽断言来做似乎可以。
 			  因为是“前面有”所以用正向后行断言： `(?<=关闭).*,(.*)\n` 即可捕获内容。
-			- 在FV中利用JS进行正则文本处理，当然我是不会js了，我需要去问问sydne（滑稽脸）
+			- 在[[FV]]中利用JS进行正则文本处理，当然我是不会js了，我需要去问问sydne（滑稽脸）
 			  collapsed:: true
 				- 问：请问，我有一个正则是：(?<=关闭).*,(.*)\n，他将返回一个捕获的数组，请问我如何在Javascrip中获取这个捕获？
 				- 答：
 			- JavaScript的正则使用警告
 			  id:: 6423b500-045f-4017-8980-20c76a635ca7
-			  collapsed:: true
 				- ![image.png](../assets/image_1680062227622_0.png)
-				  collapsed:: true
 					- 在js中无法捕获，用了g全局选项，删了就好。
+						- what？什么意思？
 			- FV内置浏览器--》模拟双屏
--
+		- code
+			- ```java
+			  const regex = /([\u4E00-\u9FA5\u3040-\u309F\u30A0-\u30FF]+)(?=.*显示翻译)/g;
+			  const text = arg1;
+			  
+			  let match;
+			  let lastMatch;
+			  
+			  while ((match = regex.exec(text)) !== null) {
+			    lastMatch = match;
+			  }
+			  
+			  if (lastMatch) {
+			    const capturedText = lastMatch[1];
+			    return capturedText;
+			  
+			  } else {
+			    return "";
+			  }
+			  ```
+	- [[2023-05-24]]真的是，有bug，若文字间有数字就会匹配失败，重新写个
+		- ```javascript
+		  const input = arg1;
+		  const pattern = /\),.*?\(.*?/g;
+		  const matches = input.match(pattern);
+		  
+		  for (let i = 0; i < matches.length; i++) {
+		    if (matches[i].includes("显示翻译")) {
+		      const index = matches[i].indexOf("显示翻译");
+		      if (index > 0) {
+		        const coordinates = matches[i].substring(0, index);
+		        const previousContent = matches[i-1].slice(2, -1);
+		        console.log("坐标:", coordinates);
+		        console.log("前一位内容:", previousContent);
+		        return previousContent;
+		        break;
+		      }
+		    }
+		  }
+		  ```
