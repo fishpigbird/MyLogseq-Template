@@ -1,6 +1,7 @@
 -
 -
 	- 常用命令
+	  collapsed:: true
 		- 拼接字符串
 			- `=CONCAT(,)`
 		- 多替换
@@ -35,4 +36,6 @@
 				- VLOOKUP 匹配不出，原因之一：含有“~”这个符号
 					- `=IFERROR(VLOOKUP(SUBSTITUTE(W76,"~","~~"),Sheet1!Q:R,2,0),)`
 				- 双列不能分开，必须在一起。
+				-
 			-
+	-

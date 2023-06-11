@@ -16,3 +16,4 @@
 		- logseq使用介绍 | 笔记知识 | 等
 	- [note.xuanwo.io](https://note.xuanwo.io/#/all-pages)
 	- [AboutTheGarden (oldwinter.top)](https://garden.oldwinter.top/)
+	- [contents (fishyer.com)](https://logseq.fishyer.com/#/page/contents)
