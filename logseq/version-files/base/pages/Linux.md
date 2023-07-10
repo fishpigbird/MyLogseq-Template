@@ -1,0 +1,6 @@
+-
+-
+- 查看进程
+	- `ps`
+		- `ps aux | grep node`
+-
